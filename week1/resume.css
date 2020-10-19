@@ -1,0 +1,235 @@
+
+/*      Start Reset       */
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+}
+
+body{
+    perspective: 500px;
+}
+
+/*       End Reset        */
+
+
+/*      Start Header      */
+
+header{
+    text-align: center;
+    background-color: #1050d463;
+    height: 320px;
+    padding: 10px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10px ;
+    padding-bottom: 10px;
+    opacity: .8;
+    transition: 2s all ease;
+}
+
+header img:hover{
+    border-radius: 10%;
+    transition: 2s all ease;
+    opacity: 1;
+    -moz-transform:translateZ(-10px);
+    -webkit-transform:translateZ(-10px);
+    transform:translateZ(-10px);
+}
+
+header h1{
+    padding: 10px;
+}
+
+header h1:hover{
+    color:#EEE; 
+}
+
+header > p{
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #000;
+    text-shadow:3px 3px 5px #FFFFFF;
+    font-style:italic
+}
+
+header div p{
+    font-size: 15px;
+    display: inline;
+    float: left;
+    width: 33%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-shadow:3px 3px 7px #FFF;
+    font-style:italic
+}
+
+/*      End Header    */
+
+
+/*      Start Profile & Education & Work    */
+
+.profile{
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.about{
+    text-align: center;
+}
+
+.profile h1{
+    padding:10px 10px 10px 0;
+    display:inline-block;
+}
+
+.profile h1:hover{
+    color:#1050d463; 
+}
+
+.profile h4{
+    margin-left: 10px;
+}
+
+.profile p{
+    line-height: 30px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.education ul, .work ul{
+    list-style:none;
+}
+
+.education ul li, .work ul li{
+    font-style:italic;
+    
+}
+}
+
+
+
+/*      End Profile & Education & Work   */
+
+
+/*      Start Skills   */
+
+.skills{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.skills h1{
+    margin: 20px 0 40px 0;
+    text-align: center;
+}
+
+.skills h1:hover{
+    color:#1050d463; 
+}
+
+.parent{
+    height: 100vh;
+    width: 100%;
+    border: 2px solid #1050d463;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.child1{
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;;
+    align-self:flex-start;
+    opacity:.5;
+    transition: 1s all ease-in-out;
+}
+
+.child1:hover{
+    transition: 1s all ease-in-out;
+    opacity:1;
+    transform:translateZ(10px);
+    -moz-transform:translateZ(10px);
+    -webkit-transform:translateZ(10px);
+    border-radius: 20%;
+}
+
+.child2{
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;;
+    align-self:center;
+    opacity:.5;
+    transition: 1s all ease-in-out;
+}
+
+.child2:hover{
+    transition: 1s all ease-in-out;
+    opacity:1;
+    transform:translateZ(10px);
+    border-radius: 20%;
+}
+
+.child3{
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;;
+    align-self:center;
+    opacity:.5;
+    transition: 1s all ease-in-out;
+}
+
+.child3:hover{
+    transition: 1s all ease-in-out;
+    opacity:1;
+    transform:translateZ(10px);
+    border-radius: 20%;
+}
+
+.child4{
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;;
+    align-self:flex-end;
+    opacity:.5;
+    transition: 1s all ease-in-out;
+}
+
+.child4:hover{
+    transition: 1s all ease-in-out;
+    opacity:1;
+    transform:translateZ(10px);
+    border-radius: 20%;
+}
+
+.parent h3{
+    margin: 40px 0 20px 10px;
+}
+
+.parent ul{
+    list-style:none
+}
+
+.parent ul li {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/*      End Skills   */
