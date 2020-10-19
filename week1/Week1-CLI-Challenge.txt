@@ -1,0 +1,40 @@
+                                             Command Line Interface challenge
+
+**********************************************************************************************************************
+
+1- How do I create a hidden file or folder? How do I display it in the CLI?
+
+    We just put (. <dot>) before the name of file of folder :
+
+    Create hidden file   :  touch .filename
+    Create hidden folder :  mkdir .foldername
+
+
+2- How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+    We use -p after mkdir to create nested directories :
+
+    mkdir -p this/is/nested/folders
+
+
+3- How do I append a message to a file, without a newline character?
+
+    We use : echo “something” > file	    to Redirect the output of echo and create file
+    and    : echo “another thing” >> file	to Append the string to the file
+
+    for example :
+
+        echo "first message" > week1.txt
+        echo "second message" >> week1.txt
+
+    Then : 
+
+        cat week1.txt
+
+    the output will be :
+
+        first message
+        second message
+
+
+********************************************************************************************************************
