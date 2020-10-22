@@ -2,20 +2,16 @@
 /*      Start Reset       */
 
 *{
-    box-sizing:border-box;
     margin: 0;
     padding: 0;
-    
-}
-
-html{
-    width: 75%;
-    margin: auto;
-    font-size: 20px;
+    box-sizing:border-box;
 }
 
 body{
-    perspective: 500px;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Arial', Sans-serif;
 }
 
 /*       End Reset        */
@@ -45,9 +41,6 @@ header img:hover{
     border-radius: 10%;
     transition: 2s all ease;
     opacity: 1;
-    -moz-transform:translateZ(-10px);
-    -webkit-transform:translateZ(-10px);
-    transform:translateZ(-10px);
 }
 
 header h1{
@@ -59,7 +52,6 @@ header h1:hover{
 }
 
 header > p{
-    font-size: 20px;
     padding-bottom: 15px;
     border-bottom: 3px solid #000;
     text-shadow:3px 3px 5px #FFFFFF;
@@ -71,7 +63,7 @@ header div p{
     display: inline;
     float: left;
     width: 33%;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-bottom: 10px;
     text-shadow:3px 3px 7px #FFF;
     font-style:italic
@@ -83,7 +75,6 @@ header div p{
 /*      Start Profile & Education & Work    */
 
 .profile{
-    margin-top: 20px;
     padding: 25px;
 }
 
@@ -91,17 +82,13 @@ header div p{
     text-align: center;
 }
 
-.profile h1{
-    padding:10px 10px 10px 0;
+.profile h2{
+    padding:20px 10px 10px 0;
     display:inline-block;
 }
 
-.profile h1:hover{
+.profile h2:hover{
     color:#1050d463; 
-}
-
-.profile h4{
-    margin-left: 10px;
 }
 
 .profile p{
@@ -110,126 +97,110 @@ header div p{
     margin: 10px;
 }
 
-.education ul, .work ul{
+.education ul,
+.work ul{
     list-style:none;
 }
 
-.education ul li, .work ul li{
-    font-style:italic;
-    
+.education ul li,
+.work ul li{
+    font-style:italic;    
 }
-}
-
-
 
 /*      End Profile & Education & Work   */
 
 
 /*      Start Skills   */
 
-.skills{
+.skills-hobbies{
     margin-top: 10px;
-    padding: 20px;
+    padding: 0px;
 }
 
-.skills h1{
-    margin: 20px 0 40px 0;
+.skills-hobbies h2{
+    margin: 10px 0 40px 0;
     text-align: center;
 }
 
-.skills h1:hover{
+.skills-hobbies h2:hover{
     color:#1050d463; 
 }
 
-.parent{
+.skills-container{
     height: 100vh;
-    width: 100%;
-    border: 2px solid #1050d463;
+    border: 2px solid #000;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
     align-items:center;
 }
 
-.child1{
-    width: 250px;
-    height: 250px;
-    background-color: #1050d463;;
+.skills-container .skills{
     align-self:flex-start;
-    opacity:.5;
-    transition: 1s all ease-in-out;
 }
 
-.child1:hover{
-    transition: 1s all ease-in-out;
-    opacity:1;
-    transform:translateZ(10px);
-    -moz-transform:translateZ(10px);
-    -webkit-transform:translateZ(10px);
-    border-radius: 20%;
-}
-
-.child2{
-    width: 250px;
-    height: 250px;
-    background-color: #1050d463;;
-    align-self:center;
-    opacity:.5;
-    transition: 1s all ease-in-out;
-}
-
-.child2:hover{
-    transition: 1s all ease-in-out;
-    opacity:1;
-    transform:translateZ(10px);
-    border-radius: 20%;
-}
-
-.child3{
-    width: 250px;
-    height: 250px;
-    background-color: #1050d463;;
-    align-self:center;
-    opacity:.5;
-    transition: 1s all ease-in-out;
-}
-
-.child3:hover{
-    transition: 1s all ease-in-out;
-    opacity:1;
-    transform:translateZ(10px);
-    border-radius: 20%;
-}
-
-.child4{
-    width: 250px;
-    height: 250px;
-    background-color: #1050d463;;
+.skills-container .hobbies{ 
     align-self:flex-end;
+}
+ 
+.skills-container .skills,
+.skills-container .hobbies {
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;
     opacity:.5;
     transition: 1s all ease-in-out;
 }
 
-.child4:hover{
+.skills-container .language,
+.skills-container .courses{
+    width: 250px;
+    height: 250px;
+    background-color: #1050d463;
+    align-self:center;
+    opacity:.5;
+    transition: 1s all ease-in-out;
+}
+
+.skills:hover,
+.language:hover,
+.courses:hover,
+.hobbies:hover{
     transition: 1s all ease-in-out;
     opacity:1;
-    transform:translateZ(10px);
     border-radius: 20%;
 }
 
-.parent h3{
+.skills-container h3{
     margin: 40px 0 20px 10px;
 }
 
-.parent ul{
-    list-style:none
+.skills-container ul{
+    list-style:none;
 }
 
-.parent ul li {
+.skills-container ul li {
     text-align: center;
     line-height: 30px;
 }
 
-
-
 /*      End Skills   */
+
+
+/*    Start Footer   */
+
+footer{
+    background-color:#1050d463;
+    height: 60px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p:hover{
+    color:#FFF;
+}
+
+/*    End Footer     */
