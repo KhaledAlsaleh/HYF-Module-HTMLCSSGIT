@@ -1,0 +1,72 @@
+************************************************************************************
+
+BASh Commands:
+
+ls — List directory contents.
+
+echo — Prints text to the terminal window.
+
+touch — Creates a file.
+
+pwd — Print working directory.
+
+mv — Move or rename directory.
+
+cat — Read a file, create a file, and concatenate files.
+
+| — Pipe
+
+	A pipe takes the standard output of one command and passes it as the input to another.
+
+	Syntax: |
+
+	Common options: n/a
+
+head — Read the start of a file.
+
+tail — Read the end of a file.
+
+
+************************************************************************************
+
+GIT BASICS:
+
+$ git init <directory> 
+
+	Create empty Git repo in specified directory. Run with no
+        arguments to initialize the current directory as a git repository
+
+
+$ git clone <repo>
+	
+	Clone repo located at <repo> onto local machine. Original repo can be
+	located on the local filesystem or on a remote machine via HTTP or SSH.
+	
+$ git status 
+
+	List which files are staged, unstaged, and untracked.
+
+$ git log 
+	
+	Display the entire commit history using the default format.
+	For customization see additional options.
+
+$ git log -p 
+	
+	Display the full diff of each commit.
+
+***************************************************************************************
+
+GIT CONFIG:
+
+git config --global user.name <name> 
+	
+	Define the author name to be used for all commits by the current user.
+
+git config --global user.email <email>
+	
+	Define the author email to be used for all commits by the current user. 
+
+***************************************************************************************
+
+ 
