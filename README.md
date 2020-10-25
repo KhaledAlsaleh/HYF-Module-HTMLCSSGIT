@@ -6,8 +6,10 @@
 
 [Week-1-Digital Resume.](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week1/resume.html)
 
-[week-1-CLI challenge.](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week1/Week1-CLI-Challenge.txt)
+[Week-1-CLI challenge.](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week1/Week1-CLI-Challenge.txt)
 
+[Week-2-GIT exercises](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week2/My%20Bash%20&%20Git%20Commands.txt)
 
+[Week-2-The Drones website](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week2/index.html)
 
 
