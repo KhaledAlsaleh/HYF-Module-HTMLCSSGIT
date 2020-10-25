@@ -82,7 +82,7 @@ h2{
 }
 
 h3{
-    font-size: 15px;
+    font-size: 20px;
     color: tomato;
 }
 
@@ -167,7 +167,7 @@ img:hover{
 
     #grid-floats .grid-item{
         width: 32%;
-        height:650px; 
+        height:660px; 
         padding:10px;
         margin-left: 0px;
     }
