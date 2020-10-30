@@ -12,4 +12,4 @@
 
 [Week-2-The Drones website](https://khaledalsaleh.github.io/HYF-Module-HTMLCSSGIT/week2/index.html)
 
-
+[Week-3-Git Exercise](https://github.com/KhaledAlsaleh/animals)
